@@ -1,0 +1,6 @@
+framework module Pods_lomo_v0_1Tests {
+  umbrella header "Pods-lomo_v0.1Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

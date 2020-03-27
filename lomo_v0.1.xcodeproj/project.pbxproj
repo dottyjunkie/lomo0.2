@@ -1,0 +1,770 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		35BB1344743C770170421CC6 /* Pods_lomo_v0_1UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63F27602242DEE9D00A30E13 /* Pods_lomo_v0_1UITests.framework */; };
+		6197A354BFF4F40B7A6049D6 /* Pods_lomo_v0_1Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63F27600242DEE9900A30E13 /* Pods_lomo_v0_1Tests.framework */; };
+		639E4039242DAEC900E253EB /* monochrome_photos-24px.svg in Resources */ = {isa = PBXBuildFile; fileRef = 639E4038242DAEC900E253EB /* monochrome_photos-24px.svg */; };
+		639E403B242DB9E200E253EB /* lut_fuji.png in Resources */ = {isa = PBXBuildFile; fileRef = 639E403A242DB9E200E253EB /* lut_fuji.png */; };
+		63B3D953242CCE950072C99A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63B3D952242CCE950072C99A /* AppDelegate.swift */; };
+		63B3D955242CCE950072C99A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63B3D954242CCE950072C99A /* SceneDelegate.swift */; };
+		63B3D957242CCE950072C99A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63B3D956242CCE950072C99A /* ViewController.swift */; };
+		63B3D95A242CCE950072C99A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63B3D958242CCE950072C99A /* Main.storyboard */; };
+		63B3D95D242CCE950072C99A /* lomo_v0_1.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 63B3D95B242CCE950072C99A /* lomo_v0_1.xcdatamodeld */; };
+		63B3D95F242CCE960072C99A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63B3D95E242CCE960072C99A /* Assets.xcassets */; };
+		63B3D962242CCE960072C99A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63B3D960242CCE960072C99A /* LaunchScreen.storyboard */; };
+		63B3D96D242CCE960072C99A /* lomo_v0_1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63B3D96C242CCE960072C99A /* lomo_v0_1Tests.swift */; };
+		63B3D978242CCE960072C99A /* lomo_v0_1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63B3D977242CCE960072C99A /* lomo_v0_1UITests.swift */; };
+		63B3D987242CCF390072C99A /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 63B3D985242CCF390072C99A /* logo.png */; };
+		63B3D988242CCF390072C99A /* button.png in Resources */ = {isa = PBXBuildFile; fileRef = 63B3D986242CCF390072C99A /* button.png */; };
+		63F27601242DEE9900A30E13 /* Pods_lomo_v0_1Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63F27600242DEE9900A30E13 /* Pods_lomo_v0_1Tests.framework */; };
+		63F27603242DEE9D00A30E13 /* Pods_lomo_v0_1UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63F27602242DEE9D00A30E13 /* Pods_lomo_v0_1UITests.framework */; };
+		80C32C37180A6FD18C973BC9 /* Pods_lomo_v0_1UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F3D4A47134974788F548B1B /* Pods_lomo_v0_1UITests.framework */; };
+		ACE482340FE0E3FFDC8DEC86 /* Pods_lomo_v0_1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BE9FA29A51CE588560F5650 /* Pods_lomo_v0_1.framework */; };
+		E39F0D90A83FC7710C1E8221 /* Pods_lomo_v0_1Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB4E9FDC8EE69A164C3EA9B /* Pods_lomo_v0_1Tests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		63B3D969242CCE960072C99A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 63B3D947242CCE950072C99A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 63B3D94E242CCE950072C99A;
+			remoteInfo = lomo_v0.1;
+		};
+		63B3D974242CCE960072C99A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 63B3D947242CCE950072C99A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 63B3D94E242CCE950072C99A;
+			remoteInfo = lomo_v0.1;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1BE9FA29A51CE588560F5650 /* Pods_lomo_v0_1.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_lomo_v0_1.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A1C56A7EBE9749CD6117C2B /* Pods-lomo_v0.1Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lomo_v0.1Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-lomo_v0.1Tests/Pods-lomo_v0.1Tests.release.xcconfig"; sourceTree = "<group>"; };
+		2C841762C2E8F5564F0957E5 /* Pods-lomo_v0.1.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lomo_v0.1.release.xcconfig"; path = "Pods/Target Support Files/Pods-lomo_v0.1/Pods-lomo_v0.1.release.xcconfig"; sourceTree = "<group>"; };
+		5F3D4A47134974788F548B1B /* Pods_lomo_v0_1UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_lomo_v0_1UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		639E4038242DAEC900E253EB /* monochrome_photos-24px.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "monochrome_photos-24px.svg"; path = "../../../Downloads/monochrome_photos-24px.svg"; sourceTree = "<group>"; };
+		639E403A242DB9E200E253EB /* lut_fuji.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = lut_fuji.png; path = ../../lut_fuji.png; sourceTree = "<group>"; };
+		63B3D94F242CCE950072C99A /* lomo_v0.1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = lomo_v0.1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		63B3D952242CCE950072C99A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		63B3D954242CCE950072C99A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		63B3D956242CCE950072C99A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		63B3D959242CCE950072C99A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		63B3D95C242CCE950072C99A /* lomo_v0_1.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = lomo_v0_1.xcdatamodel; sourceTree = "<group>"; };
+		63B3D95E242CCE960072C99A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		63B3D961242CCE960072C99A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		63B3D963242CCE960072C99A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63B3D968242CCE960072C99A /* lomo_v0.1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = lomo_v0.1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		63B3D96C242CCE960072C99A /* lomo_v0_1Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lomo_v0_1Tests.swift; sourceTree = "<group>"; };
+		63B3D96E242CCE960072C99A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63B3D973242CCE960072C99A /* lomo_v0.1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = lomo_v0.1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		63B3D977242CCE960072C99A /* lomo_v0_1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lomo_v0_1UITests.swift; sourceTree = "<group>"; };
+		63B3D979242CCE960072C99A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63B3D985242CCF390072C99A /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = SOURCE_ROOT; };
+		63B3D986242CCF390072C99A /* button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button.png; sourceTree = SOURCE_ROOT; };
+		63F27600242DEE9900A30E13 /* Pods_lomo_v0_1Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_lomo_v0_1Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		63F27602242DEE9D00A30E13 /* Pods_lomo_v0_1UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_lomo_v0_1UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		96F49C25BE13554CAAE87463 /* Pods-lomo_v0.1Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lomo_v0.1Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-lomo_v0.1Tests/Pods-lomo_v0.1Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		D5CADDECB1FB4074F2049C26 /* Pods-lomo_v0.1.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lomo_v0.1.debug.xcconfig"; path = "Pods/Target Support Files/Pods-lomo_v0.1/Pods-lomo_v0.1.debug.xcconfig"; sourceTree = "<group>"; };
+		E9E26F31B5BE4137AFAB51A8 /* Pods-lomo_v0.1UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lomo_v0.1UITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-lomo_v0.1UITests/Pods-lomo_v0.1UITests.debug.xcconfig"; sourceTree = "<group>"; };
+		EA8E75C77E7B42D2839EF83E /* Pods-lomo_v0.1UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lomo_v0.1UITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-lomo_v0.1UITests/Pods-lomo_v0.1UITests.release.xcconfig"; sourceTree = "<group>"; };
+		EAB4E9FDC8EE69A164C3EA9B /* Pods_lomo_v0_1Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_lomo_v0_1Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		63B3D94C242CCE950072C99A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63F27603242DEE9D00A30E13 /* Pods_lomo_v0_1UITests.framework in Frameworks */,
+				63F27601242DEE9900A30E13 /* Pods_lomo_v0_1Tests.framework in Frameworks */,
+				ACE482340FE0E3FFDC8DEC86 /* Pods_lomo_v0_1.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63B3D965242CCE960072C99A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E39F0D90A83FC7710C1E8221 /* Pods_lomo_v0_1Tests.framework in Frameworks */,
+				6197A354BFF4F40B7A6049D6 /* Pods_lomo_v0_1Tests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63B3D970242CCE960072C99A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80C32C37180A6FD18C973BC9 /* Pods_lomo_v0_1UITests.framework in Frameworks */,
+				35BB1344743C770170421CC6 /* Pods_lomo_v0_1UITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		63B3D946242CCE950072C99A = {
+			isa = PBXGroup;
+			children = (
+				63B3D951242CCE950072C99A /* lomo_v0.1 */,
+				63B3D96B242CCE960072C99A /* lomo_v0.1Tests */,
+				63B3D976242CCE960072C99A /* lomo_v0.1UITests */,
+				63B3D950242CCE950072C99A /* Products */,
+				84CCCCFE0ADEB3D6980090F7 /* Pods */,
+				C040CDE4E847B4D7F199C4E5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		63B3D950242CCE950072C99A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				63B3D94F242CCE950072C99A /* lomo_v0.1.app */,
+				63B3D968242CCE960072C99A /* lomo_v0.1Tests.xctest */,
+				63B3D973242CCE960072C99A /* lomo_v0.1UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		63B3D951242CCE950072C99A /* lomo_v0.1 */ = {
+			isa = PBXGroup;
+			children = (
+				63B3D952242CCE950072C99A /* AppDelegate.swift */,
+				63B3D954242CCE950072C99A /* SceneDelegate.swift */,
+				63B3D956242CCE950072C99A /* ViewController.swift */,
+				63B3D958242CCE950072C99A /* Main.storyboard */,
+				63B3D95E242CCE960072C99A /* Assets.xcassets */,
+				63B3D960242CCE960072C99A /* LaunchScreen.storyboard */,
+				63B3D963242CCE960072C99A /* Info.plist */,
+				639E403A242DB9E200E253EB /* lut_fuji.png */,
+				639E4038242DAEC900E253EB /* monochrome_photos-24px.svg */,
+				63B3D986242CCF390072C99A /* button.png */,
+				63B3D985242CCF390072C99A /* logo.png */,
+				63B3D95B242CCE950072C99A /* lomo_v0_1.xcdatamodeld */,
+			);
+			path = lomo_v0.1;
+			sourceTree = "<group>";
+		};
+		63B3D96B242CCE960072C99A /* lomo_v0.1Tests */ = {
+			isa = PBXGroup;
+			children = (
+				63B3D96C242CCE960072C99A /* lomo_v0_1Tests.swift */,
+				63B3D96E242CCE960072C99A /* Info.plist */,
+			);
+			path = lomo_v0.1Tests;
+			sourceTree = "<group>";
+		};
+		63B3D976242CCE960072C99A /* lomo_v0.1UITests */ = {
+			isa = PBXGroup;
+			children = (
+				63B3D977242CCE960072C99A /* lomo_v0_1UITests.swift */,
+				63B3D979242CCE960072C99A /* Info.plist */,
+			);
+			path = lomo_v0.1UITests;
+			sourceTree = "<group>";
+		};
+		84CCCCFE0ADEB3D6980090F7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D5CADDECB1FB4074F2049C26 /* Pods-lomo_v0.1.debug.xcconfig */,
+				2C841762C2E8F5564F0957E5 /* Pods-lomo_v0.1.release.xcconfig */,
+				96F49C25BE13554CAAE87463 /* Pods-lomo_v0.1Tests.debug.xcconfig */,
+				2A1C56A7EBE9749CD6117C2B /* Pods-lomo_v0.1Tests.release.xcconfig */,
+				E9E26F31B5BE4137AFAB51A8 /* Pods-lomo_v0.1UITests.debug.xcconfig */,
+				EA8E75C77E7B42D2839EF83E /* Pods-lomo_v0.1UITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C040CDE4E847B4D7F199C4E5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				63F27602242DEE9D00A30E13 /* Pods_lomo_v0_1UITests.framework */,
+				63F27600242DEE9900A30E13 /* Pods_lomo_v0_1Tests.framework */,
+				1BE9FA29A51CE588560F5650 /* Pods_lomo_v0_1.framework */,
+				EAB4E9FDC8EE69A164C3EA9B /* Pods_lomo_v0_1Tests.framework */,
+				5F3D4A47134974788F548B1B /* Pods_lomo_v0_1UITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		63B3D94E242CCE950072C99A /* lomo_v0.1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63B3D97C242CCE960072C99A /* Build configuration list for PBXNativeTarget "lomo_v0.1" */;
+			buildPhases = (
+				5AC9636287D968E4E13DC967 /* [CP] Check Pods Manifest.lock */,
+				63B3D94B242CCE950072C99A /* Sources */,
+				63B3D94C242CCE950072C99A /* Frameworks */,
+				63B3D94D242CCE950072C99A /* Resources */,
+				14A7D36B107FA29661AAD141 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = lomo_v0.1;
+			productName = lomo_v0.1;
+			productReference = 63B3D94F242CCE950072C99A /* lomo_v0.1.app */;
+			productType = "com.apple.product-type.application";
+		};
+		63B3D967242CCE960072C99A /* lomo_v0.1Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63B3D97F242CCE960072C99A /* Build configuration list for PBXNativeTarget "lomo_v0.1Tests" */;
+			buildPhases = (
+				758DCA698F05A9AE0E67BA9D /* [CP] Check Pods Manifest.lock */,
+				63B3D964242CCE960072C99A /* Sources */,
+				63B3D965242CCE960072C99A /* Frameworks */,
+				63B3D966242CCE960072C99A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				63B3D96A242CCE960072C99A /* PBXTargetDependency */,
+			);
+			name = lomo_v0.1Tests;
+			productName = lomo_v0.1Tests;
+			productReference = 63B3D968242CCE960072C99A /* lomo_v0.1Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		63B3D972242CCE960072C99A /* lomo_v0.1UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63B3D982242CCE960072C99A /* Build configuration list for PBXNativeTarget "lomo_v0.1UITests" */;
+			buildPhases = (
+				356585414BE52E65E018D4A7 /* [CP] Check Pods Manifest.lock */,
+				63B3D96F242CCE960072C99A /* Sources */,
+				63B3D970242CCE960072C99A /* Frameworks */,
+				63B3D971242CCE960072C99A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				63B3D975242CCE960072C99A /* PBXTargetDependency */,
+			);
+			name = lomo_v0.1UITests;
+			productName = lomo_v0.1UITests;
+			productReference = 63B3D973242CCE960072C99A /* lomo_v0.1UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		63B3D947242CCE950072C99A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "turing-junkie";
+				TargetAttributes = {
+					63B3D94E242CCE950072C99A = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					63B3D967242CCE960072C99A = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 63B3D94E242CCE950072C99A;
+					};
+					63B3D972242CCE960072C99A = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 63B3D94E242CCE950072C99A;
+					};
+				};
+			};
+			buildConfigurationList = 63B3D94A242CCE950072C99A /* Build configuration list for PBXProject "lomo_v0.1" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 63B3D946242CCE950072C99A;
+			productRefGroup = 63B3D950242CCE950072C99A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				63B3D94E242CCE950072C99A /* lomo_v0.1 */,
+				63B3D967242CCE960072C99A /* lomo_v0.1Tests */,
+				63B3D972242CCE960072C99A /* lomo_v0.1UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		63B3D94D242CCE950072C99A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				639E403B242DB9E200E253EB /* lut_fuji.png in Resources */,
+				63B3D987242CCF390072C99A /* logo.png in Resources */,
+				63B3D988242CCF390072C99A /* button.png in Resources */,
+				639E4039242DAEC900E253EB /* monochrome_photos-24px.svg in Resources */,
+				63B3D962242CCE960072C99A /* LaunchScreen.storyboard in Resources */,
+				63B3D95F242CCE960072C99A /* Assets.xcassets in Resources */,
+				63B3D95A242CCE950072C99A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63B3D966242CCE960072C99A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63B3D971242CCE960072C99A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		14A7D36B107FA29661AAD141 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-lomo_v0.1/Pods-lomo_v0.1-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/PixelEditor/PixelEditor.framework",
+				"${BUILT_PRODUCTS_DIR}/PixelEngine/PixelEngine.framework",
+				"${BUILT_PRODUCTS_DIR}/TransitionPatch/TransitionPatch.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PixelEditor.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PixelEngine.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TransitionPatch.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-lomo_v0.1/Pods-lomo_v0.1-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		356585414BE52E65E018D4A7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-lomo_v0.1UITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5AC9636287D968E4E13DC967 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-lomo_v0.1-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		758DCA698F05A9AE0E67BA9D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-lomo_v0.1Tests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		63B3D94B242CCE950072C99A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63B3D957242CCE950072C99A /* ViewController.swift in Sources */,
+				63B3D953242CCE950072C99A /* AppDelegate.swift in Sources */,
+				63B3D95D242CCE950072C99A /* lomo_v0_1.xcdatamodeld in Sources */,
+				63B3D955242CCE950072C99A /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63B3D964242CCE960072C99A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63B3D96D242CCE960072C99A /* lomo_v0_1Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63B3D96F242CCE960072C99A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63B3D978242CCE960072C99A /* lomo_v0_1UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		63B3D96A242CCE960072C99A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 63B3D94E242CCE950072C99A /* lomo_v0.1 */;
+			targetProxy = 63B3D969242CCE960072C99A /* PBXContainerItemProxy */;
+		};
+		63B3D975242CCE960072C99A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 63B3D94E242CCE950072C99A /* lomo_v0.1 */;
+			targetProxy = 63B3D974242CCE960072C99A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		63B3D958242CCE950072C99A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				63B3D959242CCE950072C99A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		63B3D960242CCE960072C99A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				63B3D961242CCE960072C99A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		63B3D97A242CCE960072C99A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		63B3D97B242CCE960072C99A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		63B3D97D242CCE960072C99A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D5CADDECB1FB4074F2049C26 /* Pods-lomo_v0.1.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZBR99SZV2J;
+				INFOPLIST_FILE = lomo_v0.1/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "turing-junkie.lomo-v0-1";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		63B3D97E242CCE960072C99A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C841762C2E8F5564F0957E5 /* Pods-lomo_v0.1.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZBR99SZV2J;
+				INFOPLIST_FILE = lomo_v0.1/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "turing-junkie.lomo-v0-1";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		63B3D980242CCE960072C99A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 96F49C25BE13554CAAE87463 /* Pods-lomo_v0.1Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = E48RJAEVC8;
+				INFOPLIST_FILE = lomo_v0.1Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "turing-junkie.lomo-v0-1Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/lomo_v0.1.app/lomo_v0.1";
+			};
+			name = Debug;
+		};
+		63B3D981242CCE960072C99A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A1C56A7EBE9749CD6117C2B /* Pods-lomo_v0.1Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = E48RJAEVC8;
+				INFOPLIST_FILE = lomo_v0.1Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "turing-junkie.lomo-v0-1Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/lomo_v0.1.app/lomo_v0.1";
+			};
+			name = Release;
+		};
+		63B3D983242CCE960072C99A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E9E26F31B5BE4137AFAB51A8 /* Pods-lomo_v0.1UITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = E48RJAEVC8;
+				INFOPLIST_FILE = lomo_v0.1UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "turing-junkie.lomo-v0-1UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = lomo_v0.1;
+			};
+			name = Debug;
+		};
+		63B3D984242CCE960072C99A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA8E75C77E7B42D2839EF83E /* Pods-lomo_v0.1UITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = E48RJAEVC8;
+				INFOPLIST_FILE = lomo_v0.1UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "turing-junkie.lomo-v0-1UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = lomo_v0.1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		63B3D94A242CCE950072C99A /* Build configuration list for PBXProject "lomo_v0.1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63B3D97A242CCE960072C99A /* Debug */,
+				63B3D97B242CCE960072C99A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63B3D97C242CCE960072C99A /* Build configuration list for PBXNativeTarget "lomo_v0.1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63B3D97D242CCE960072C99A /* Debug */,
+				63B3D97E242CCE960072C99A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63B3D97F242CCE960072C99A /* Build configuration list for PBXNativeTarget "lomo_v0.1Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63B3D980242CCE960072C99A /* Debug */,
+				63B3D981242CCE960072C99A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63B3D982242CCE960072C99A /* Build configuration list for PBXNativeTarget "lomo_v0.1UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63B3D983242CCE960072C99A /* Debug */,
+				63B3D984242CCE960072C99A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		63B3D95B242CCE950072C99A /* lomo_v0_1.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				63B3D95C242CCE950072C99A /* lomo_v0_1.xcdatamodel */,
+			);
+			currentVersion = 63B3D95C242CCE950072C99A /* lomo_v0_1.xcdatamodel */;
+			path = lomo_v0_1.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 63B3D947242CCE950072C99A /* Project object */;
+}
